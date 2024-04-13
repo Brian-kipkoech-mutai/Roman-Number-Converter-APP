@@ -18,12 +18,15 @@ if (!value) {
     output.innerText = "Please enter a valid number";
 } else if (value < 0) {
      
-//     output.innerText = "Please enter a number greater than or equal to 1";
-// } else if (value >= 4000) {
+    output.innerText = "Please enter a number greater than or equal to 1";
+} 
+//   else if (value >= 4000) {
     // you can choose to limit the maximum number a user  can query
      
-    output.innerText = "Please enter a number less than 4000";
-} else {
+//    output.innerText = "Please enter a number less than 4000";
+// } 
+
+else {
    
     output.innerText= convertToRomanNumber(value);
 }
